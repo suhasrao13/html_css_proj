@@ -1,0 +1,23 @@
+header {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 150%;
+  align-content: center;
+  display: flexbox;
+  text-align: center;
+}
+
+div :first-child {
+  background-color: yellow;
+  color: red;
+}
+
+div p:not(:first-child) {
+  background-color: blue;
+  color: white;
+}
+
+/* div p:not(:nth-child(2)) {
+  background-color: yellow;
+  color: red;
+} */
